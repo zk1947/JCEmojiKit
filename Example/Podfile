@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'JCEmojiKit_Example' do
+  pod 'JCEmojiKit', :path => '../'
+
+  target 'JCEmojiKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
