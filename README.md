@@ -7,7 +7,7 @@
 
 ## Example
 
-自定义Emoji，自定义表情键盘 
+自定义Emoji，自定义表情键盘，参考自PPStickerKeyboard 
 
 ![Demo GIF](https://github.com/zk1947/JCEmojiKit/blob/main/demo.gif)
 
