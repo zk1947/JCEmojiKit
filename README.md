@@ -7,7 +7,7 @@
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+自定义Emoji，自定义表情键盘 
 
 ## Requirements
 
