@@ -9,7 +9,7 @@
 
 自定义Emoji，自定义表情键盘 
 
-![Demo GIF](<img src="https://github.com/zk1947/JCEmojiKit/blob/main/demo.gif" width="300" height="600" />  )
+![Demo GIF](https://github.com/zk1947/JCEmojiKit/blob/main/demo.gif)
 
 ## Requirements
 
