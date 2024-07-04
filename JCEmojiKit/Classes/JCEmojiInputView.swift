@@ -13,6 +13,8 @@ public class JCEmojiInputView: UIControl, UITextViewDelegate {
     
     public var myBlock: (() -> Void)?
     
+    var keyBoardButton: UIButton?
+    
     var quickEmojiArray: [JCEmojiModel] = []
     
     public init() {
@@ -72,6 +74,7 @@ public class JCEmojiInputView: UIControl, UITextViewDelegate {
             make.centerY.equalTo(txtBackView)
             make.size.equalTo(CGSize(width: 24.adapter, height: 24.adapter))
         }
+        self.keyBoardButton = keyBoardButton
         
         let space = (Double(kScreenWidth)-24.adapter*6.0-18.adapter*2.0)/5.0
         for (index, item) in quickEmojiArray.enumerated() {
@@ -225,6 +228,7 @@ public class JCEmojiInputView: UIControl, UITextViewDelegate {
         self.textView.text = ""
         self.textView.attributedText = NSMutableAttributedString(string: "")
         self.setPlaceStatus()
+        self.keyBoardButton?.setImage(UIImage.jcImage("emoji_cus_keyboard"), for: .normal)
         self.textView.inputView = nil
         self.isCustom = false
     }
