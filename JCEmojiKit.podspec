@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JCEmojiKit'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of JCEmojiKit.'
+  s.version          = '1.0.0'
+  s.summary          = '自定义Emoji，自定义键盘'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,21 +21,25 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/zk1947@163.com/JCEmojiKit'
+  s.homepage         = 'https://github.com/zk1947/JCEmojiKit.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'zk1947@163.com' => 'zk1947@163.com' }
-  s.source           = { :git => 'https://github.com/zk1947@163.com/JCEmojiKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/zk1947/JCEmojiKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '13.0'
+  s.swift_version = '5.0'
 
   s.source_files = 'JCEmojiKit/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'JCEmojiKit' => ['JCEmojiKit/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'JCEmojiKit' => ['JCEmojiKit/Assets/*.xcassets']
+   }
 
+   s.dependency 'SnapKit'
+   s.dependency 'JXSegmentedView'
+   
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'

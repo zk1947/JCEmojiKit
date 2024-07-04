@@ -1,0 +1,27 @@
+PODS:
+  - JCEmojiKit (1.0.0):
+    - JXSegmentedView
+    - SnapKit
+  - JXSegmentedView (1.3.3)
+  - SnapKit (5.6.0)
+
+DEPENDENCIES:
+  - JCEmojiKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - JXSegmentedView
+    - SnapKit
+
+EXTERNAL SOURCES:
+  JCEmojiKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JCEmojiKit: 52a3ae2d27374275a06a0871e229a7b2526ac2f0
+  JXSegmentedView: 651b60fcf705258ba9395edd53876dbd2853fb68
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+
+PODFILE CHECKSUM: 9f8bd0edd8cfbae530326fd070a4519743c65c8a
+
+COCOAPODS: 1.14.3

@@ -1,0 +1,1732 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00EE19AC2DC3B0665F9B47FE64AD25BB /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0EA2D8918B93D598C118E300DC4BB4 /* UILayoutSupport+Extensions.swift */; };
+		0402E19D4FF549BC88A7B69B675C9C99 /* JXSegmentedIndicatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9770DD924F6DF23FFE58FDDF32BAF790 /* JXSegmentedIndicatorProtocol.swift */; };
+		04B05C36CAD8F2046C5932626782554F /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = A002246719FB9539EA624BE76A7363C9 /* ConstraintOffsetTarget.swift */; };
+		068371A99B1BB79E2FBD8988D8072CDC /* JCEmojiKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25037DB09DCC3CBD967537AD038B61A9 /* JCEmojiKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07CBCDA7B26929BF25414C1D6C5223EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		096EABD660C9C6257EFF2D634D0BC21D /* Pods-JCEmojiKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12F982565E390D0D67FED4AB8149233B /* Pods-JCEmojiKit_Example-dummy.m */; };
+		09F16F956561029DDD13AF2CB442A147 /* JXSegmentedTitleOrImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4097BEEC1D523EBDAABFB44F20FD5649 /* JXSegmentedTitleOrImageCell.swift */; };
+		0A6605FF4949187D415C5244CDE21D7B /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8DE7117486C351AA3FB5830E684448 /* ConstraintPriorityTarget.swift */; };
+		0DA877347B7DB5E31D5EC4A9DC253B6A /* JXSegmentedNumberItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6596CF44922F32956B0245ECA2E500BF /* JXSegmentedNumberItemModel.swift */; };
+		0DE9322427479A1B88DD07AC50802658 /* JCEmojiKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90506FAB27558317B38545D16CB7E3A3 /* JCEmojiKit-dummy.m */; };
+		105A993B4DF1234108C56D160D53B3D3 /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965B0B9D7DF6DC02B34DA9088C91A46A /* ConstraintMakerFinalizable.swift */; };
+		12635FE1877EEC0467BD52AF5EE85940 /* JXSegmentedTitleOrImageDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C645C92629075AF417A340B6680026 /* JXSegmentedTitleOrImageDataSource.swift */; };
+		15392ED287279B23D9FD6B3DDE8D878C /* JXSegmentedNumberCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F04CE77AF14A68E1A328A7291CD490 /* JXSegmentedNumberCell.swift */; };
+		1604DBD11F0D3601CFBA479722A20289 /* JXSegmentedView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9946479E1CF88119AC9F1499C0204945 /* JXSegmentedView-dummy.m */; };
+		1A1AE6A7D6D90EAD0E802F4AC805408D /* JXSegmentedListContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC4766BCB40EE1D3A2486F5E024803A /* JXSegmentedListContainerView.swift */; };
+		1CF66465C93BD24FF562B1E4D1CA1DFD /* JXSegmentedView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7400B7466253D1356AD6DD07AC1D99FE /* JXSegmentedView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D61CA43CCCB4E1D78CD4BACB55D6C1C /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA82CC5AF66AB0C4B2E537EA53C911C4 /* ConstraintMakerEditable.swift */; };
+		24D65112CA828941F654AF67D266F021 /* ConstraintView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06112088E73B30D5BEF9C4FC9044B16 /* ConstraintView+Extensions.swift */; };
+		278F868BA202F6E954C393F6383EAC9A /* JXSegmentedBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C927B3979AC7322A879EC3A8F004E71D /* JXSegmentedBaseCell.swift */; };
+		2AAFAC7A349DADB398903A35D494A4F6 /* ConstraintMakerPrioritizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3822B619D677E89129F98546B6A577AF /* ConstraintMakerPrioritizable.swift */; };
+		2B85BB1EB25A7258EF6FA22C3A77928B /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6DDBB771930C4B1617CD8FC73286C9 /* ConstraintRelation.swift */; };
+		312FB4C7D59574905EF791B367151587 /* JXSegmentedIndicatorRainbowLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F5DBB36DEBB361B67D8932C68CDBA8 /* JXSegmentedIndicatorRainbowLineView.swift */; };
+		32D2A5EC76677EA1F15C2E0A96100F39 /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB7740DE0E7C9B722570A30AF796420 /* ConstraintInsetTarget.swift */; };
+		347F293D1143A11AB1CE67A870D3F8F9 /* JXSegmentedTitleImageItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE3AC2DF187487F6CFA608584D41C4D /* JXSegmentedTitleImageItemModel.swift */; };
+		389D2C1FB53206BB35765DA71BFA42CD /* JXSegmentedNumberDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BC3B43B3D67E09B43D52974130B589 /* JXSegmentedNumberDataSource.swift */; };
+		3B3EEB4069CF754653A5F373A1672BF3 /* JXSegmentedComponetGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD3CFFC42752BC3FB421142F8DA7BF2 /* JXSegmentedComponetGradientView.swift */; };
+		3B613314F559E1B10B16304803EF359F /* JCEmojiCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245FB0A0755FEF387A99D08A4478085E /* JCEmojiCell.swift */; };
+		40F52208ADA70A933BE586AC6E906A0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		45300E75E5CA66063398ACC23CEB37F3 /* JXSegmentedIndicatorBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E9BB73AE6F8FCC18B371D0B74FD442 /* JXSegmentedIndicatorBaseView.swift */; };
+		46FC9DD997E3C2E58F31A3F3B48D5E33 /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25BEB5897289B599EE6C01AA85C54D0 /* Debugging.swift */; };
+		47B8BF66B89DEF1BBF9C3EAFF0F6934E /* Pods-JCEmojiKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC81B5AA64D2B7458245F6CD7AF5B67A /* Pods-JCEmojiKit_Tests-dummy.m */; };
+		493A236E426A662633B96DED24A54FF6 /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F392268C0FA187C687265FD7D19B93 /* ConstraintDSL.swift */; };
+		4DDC992FA1E438EB6FDF7343690EE23E /* JXSegmentedViewTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E98FB1631BABED2106122B6FF9C5C09 /* JXSegmentedViewTool.swift */; };
+		4F25DF35D97F90160AF4797121AFA66F /* JCEmojiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6236A9FBDC8663FF765CCFEB3A1787 /* JCEmojiModel.swift */; };
+		560DE788090183D0EF87E00A8CE1539C /* ConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DAC4F18D0D5888D220BA872F8FCCCD /* ConstraintMakerExtendable.swift */; };
+		57DF2BF090347773D30E2C908BECF432 /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE94A5F3C2F1A0398B8731127BE44E18 /* LayoutConstraintItem.swift */; };
+		5D0F435E2D00C5D220E8418A4488F955 /* JXSegmentedTitleOrImageItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42C27D726882B8D2C11825D6ECAEF09 /* JXSegmentedTitleOrImageItemModel.swift */; };
+		5E5CF85D5A086914D1B3F2AE91EB5642 /* JXSegmentedTitleAttributeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840014E50D9F37212E36FD3A4388CAF6 /* JXSegmentedTitleAttributeCell.swift */; };
+		602EF5B77A1FC1DB4C7931E9468FEB22 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EFE2F25A6201537684F1E1D512E724 /* Constraint.swift */; };
+		6273762FFF6E1037B12AE1F49E7371DC /* JXSegmentedIndicatorTriangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC97F5E0C9ADD0CAB0AC4B3364B5BD2 /* JXSegmentedIndicatorTriangleView.swift */; };
+		63F49BDB24641DA2D2A4F3B058C5D2B1 /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B7C4E2850EC40B699184642E27099B /* ConstraintLayoutGuide+Extensions.swift */; };
+		65BC6D3A36FB3A4D0305C309FE89F46E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E74A46B8355AEAF835B3278F44D895DD /* Assets.xcassets */; };
+		688A7A13D8DA23805EE4492EAECDC1C1 /* JXSegmentedView-JXSegmentedView in Resources */ = {isa = PBXBuildFile; fileRef = 92B0EC788EDA1B0CFA48DFFCB3DDAECD /* JXSegmentedView-JXSegmentedView */; };
+		71CE6C7184EACE183E2CCBA34CDF010F /* JXSegmentedTitleAttributeDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FC13B18F872F137C03A648CED6EBB5 /* JXSegmentedTitleAttributeDataSource.swift */; };
+		780FBE58183E161E19C59ECE3E09AD5D /* JXSegmentedTitleItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D5248735ED6423DD00525395B3194E /* JXSegmentedTitleItemModel.swift */; };
+		7E1FE4AB9B4F053F9DA4EBB65E37B6AA /* JXSegmentedCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C38F9C3B5DFB4DA1DD23482A428B39F /* JXSegmentedCollectionView.swift */; };
+		7E45D3516379D9DEDAE4676760A5E89A /* JXSegmentedTitleGradientItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D433D02D479F88C4A6FC887974A970C /* JXSegmentedTitleGradientItemModel.swift */; };
+		7F78AF049470C4742C08CAB4CD8F6DA5 /* Pods-JCEmojiKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC7D95DD08CDE7A63CD1E2392DC65 /* Pods-JCEmojiKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81AE8DB202A6EA12B468B1E7F0E4F68B /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE2E29971829AC97F5BA03ED5A0EF6B /* ConstraintDescription.swift */; };
+		82FDFCA637769D06F213FBB9C0C63F77 /* JXSegmentedIndicatorGradientLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF35B4EFBA2B96C42559300BC1A6079 /* JXSegmentedIndicatorGradientLineView.swift */; };
+		8307E24CCF964B4A1749E3C9E8ABCE14 /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8988B1D7CC62118F03F4BE3FF102F21 /* ConstraintLayoutGuideDSL.swift */; };
+		87B66E194DCB95117916977AB32E8FB4 /* JXSegmentedDotItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF74D3E62D337154569D4411733728D7 /* JXSegmentedDotItemModel.swift */; };
+		8F625196121649CC72705E8AF7731236 /* JXSegmentedTitleDynamicConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7D6DF78EF41C17A4A67388AC9FB19A /* JXSegmentedTitleDynamicConfiguration.swift */; };
+		92FFE08C2C6E59D67FC9F29EA2211B11 /* JXSegmentedBaseItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D91033424A08547393AD9235582DD1 /* JXSegmentedBaseItemModel.swift */; };
+		9608707DA07841CCAD826758F3725BF8 /* JXSegmentedDotCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BAAFDFA8DF9BCCE542835F0FB1FF6C /* JXSegmentedDotCell.swift */; };
+		98A532207A70E7D409016B7160E7F55E /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = A675F717154BBC45133C9717FE4F54E9 /* ConstraintRelatableTarget.swift */; };
+		98B3756A0CF1EA9DDAC0789B9F0F62EF /* JXSegmentedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3277DA92709C73FE9D77711EA59A7E /* JXSegmentedView.swift */; };
+		99E4A5B4DBC76CFC64983471532E5DB1 /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D98E92DCCF136681DDE01515241EAEB /* ConstraintLayoutSupport.swift */; };
+		9B4376810387B7D2F72BF4E8E8A70F0C /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BDBA836B47CA333CA7F2E5E2E8A0F5 /* ConstraintMaker.swift */; };
+		9C7FDCAAC697C0C6165ADCCC3BC6BCBD /* JXSegmentedTitleGradientDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298E77DB94986D36D69A72E3C02F3E83 /* JXSegmentedTitleGradientDataSource.swift */; };
+		9CE34D25E23E1C6EBC6CC4906A26C5CE /* JXSegmentedTitleImageDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B0C42BDF8266507CDDBFB5F06C4F3F /* JXSegmentedTitleImageDataSource.swift */; };
+		9E0BFA8FF45ED160D2130C0B35E65736 /* ConstraintDirectionalInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7F2032791023A25A1EAF43A8B80976 /* ConstraintDirectionalInsets.swift */; };
+		9F245FAFF529EDC105DF834B61213D61 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = FCB70EDAA905C28A8A0E7AFFAB6B4F95 /* PrivacyInfo.xcprivacy */; };
+		A1BEB62F6C19E2C66FBBF2FFA960B078 /* JXSegmentedTitleAttributeItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB0577F020F2BF0C07FAC6D59BD34F9 /* JXSegmentedTitleAttributeItemModel.swift */; };
+		A3CB7AA6CD9DCDB7AEF0094675C29884 /* JCEmojiListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502B3FE73B7C36BE78F8933C9BCEF869 /* JCEmojiListView.swift */; };
+		A4EBD136FC71BF2D897537129B311CB1 /* JXSegmentedAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394F2CACD5B4AEA7D2CBB883BF5F1BF7 /* JXSegmentedAnimator.swift */; };
+		A5AFE0D3806E6FE921861F96D83C8D8D /* JCEmojiInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D544150772D6BEED3A3622A77538254 /* JCEmojiInputView.swift */; };
+		A67FE17805B29E84D622597E7ED157B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		A9053E85FD908F3EE92111D7DBE6CE34 /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6B7CF428BFBD9C9C43F4AF76EB0D53 /* ConstraintView.swift */; };
+		AB02D18D4D8034B5077351CDCD9349C3 /* JXSegmentedTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BF881C295087D7561D1BD1E227D5AC /* JXSegmentedTitleCell.swift */; };
+		AB8DB5E85DD78208D21A124E30A90951 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		AEDC2F1A94CC33457289B689E0CC0835 /* JCEmojiDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC56495C1E8BB04640B12A75D5FDFA3 /* JCEmojiDataManager.swift */; };
+		B1F495A858F73AF922C853A4561E41E1 /* JXSegmentedIndicatorGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D82BCCE2C40F3B8A7C571EB9C202A7 /* JXSegmentedIndicatorGradientView.swift */; };
+		B358321F548C18F683560D5B0E7E50A8 /* ConstraintPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0631BF5E7AD954199A9645854816ED /* ConstraintPriority.swift */; };
+		B773233B12018FAB69567783C9496A44 /* JXSegmentedRTLLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D940F1AB30B676F66DAAEC84EDD0A475 /* JXSegmentedRTLLayout.swift */; };
+		B7F3B2A47E7BD03728088637D2966605 /* ConstraintDirectionalInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35723F991635BC787BF9A891B87733F /* ConstraintDirectionalInsetTarget.swift */; };
+		B8DDBE0069C23FE52A30ACE745F34A47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		B97259AACBBEF4568EAD54A11B69D92A /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE00A08886DC1E51F8FFEBECFE67308B /* ConstraintLayoutSupportDSL.swift */; };
+		B99EF6A1DBACA9ED862C70472DFD402D /* JXSegmentedIndicatorParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099831C9589468C6E3336F8D44196D07 /* JXSegmentedIndicatorParams.swift */; };
+		BACC24AC130202B1A3245715886AD8EA /* JXSegmentedIndicatorDotLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7EF601015325881AB2DC51335DF3BC /* JXSegmentedIndicatorDotLineView.swift */; };
+		BE0F71558881074645C617E936C0DDE5 /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F443935E1D02152CD140A9C089E9128E /* LayoutConstraint.swift */; };
+		BF0D3AF706CE1E23E4BB2A5D8D372756 /* JXSegmentedTitleDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887F852D0C8113F5ECF5B19B8E489BEF /* JXSegmentedTitleDataSource.swift */; };
+		C01D663E356B2841BB5D64274A3856B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		C7C3E5D53999A8D7AB5E1BED8F4C3C29 /* ConstraintConstantTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = B970EF62314C226D2963DEC81E226202 /* ConstraintConstantTarget.swift */; };
+		CB3CC55F994C61C8F43F53110F672A11 /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADFDCAF3C208879335CF2C72901287E /* ConstraintMultiplierTarget.swift */; };
+		CCCD215E1FE11C448784B7242530A1E9 /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777B2163101035063A5A4DF66027F279 /* ConstraintMakerRelatable.swift */; };
+		CDD3B7D4F2541D5B9DBFB04625788D0D /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624FC7797EF68C53A76456D9573453C9 /* ConstraintInsets.swift */; };
+		CEC7CBF995E1A9236F1189E3EE6C682F /* JXSegmentedIndicatorDoubleLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F697750CBF3F943B509C05BEC8DA8EC /* JXSegmentedIndicatorDoubleLineView.swift */; };
+		CF3ED591615A127BE46272FFA7233BA6 /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28EC05B20CB551D1F1B529F4B39ECDA /* ConstraintAttributes.swift */; };
+		D2A65F3C799C29E50683491D03A02579 /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A07B5AD65F0410DA80810A8250A29F /* SnapKit-dummy.m */; };
+		D5ED43BD2BC29481DC9F80397FEEFEB3 /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3226A9B937733832EE5C600E4D5A43 /* ConstraintConfig.swift */; };
+		D7AE49C08B209994F6AB1C96DEC9D887 /* JCEmojiKeyBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D778A1F15B5D3ABDBEDE1721857AA5 /* JCEmojiKeyBoardView.swift */; };
+		D97CFA9F98A88A079D53E7711C30731E /* JXSegmentedDotDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCE6D889CC04202D6452B7A6EEDBAEF /* JXSegmentedDotDataSource.swift */; };
+		DB281183CC0CD458466FF74E96F84BEC /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A4DE7173A1DF27F89824135C25A57351 /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBBE79E3BB9C447738B38A94F713213D /* JXSegmentedIndicatorBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195762F7FE4657255B314C1B9C30B4A2 /* JXSegmentedIndicatorBackgroundView.swift */; };
+		DF3A02ACD52E22454FC0D205AF80B85A /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D11D23BCCB65F829BA6320073BB0FCA /* ConstraintViewDSL.swift */; };
+		E12D99D5DFE9D6BD61E4A75B8E302E12 /* JCEmojiKit-JCEmojiKit in Resources */ = {isa = PBXBuildFile; fileRef = BB7926753F25A1270EFFEB15538483F2 /* JCEmojiKit-JCEmojiKit */; };
+		E2503A458C842FC05B68C8405FF66C05 /* JXSegmentedIndicatorLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A20EA5046B93648F4271A018967393 /* JXSegmentedIndicatorLineView.swift */; };
+		EB33068FF787A95C1033B73E458906A9 /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690ECB7752CE54E573143CD97FFD706B /* ConstraintLayoutGuide.swift */; };
+		EC1F54DED64D22DB1ADFBFFB00293B76 /* JXSegmentedBaseDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A3196930CDDF748094B3750282B036 /* JXSegmentedBaseDataSource.swift */; };
+		ED321A62656D88DFBC30115387E7A85F /* ConstraintMakerRelatable+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD18CE00182795BE0167017B7420043 /* ConstraintMakerRelatable+Extensions.swift */; };
+		EEE9ACE05EF19D50A03E0AC452EA9015 /* JXSegmentedTitleGradientCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD7CCFA090A09FCEB25F7FC298675BD /* JXSegmentedTitleGradientCell.swift */; };
+		EF58F7E4B5304F3DA430136D6A39ADAC /* Pods-JCEmojiKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C72B41FFE4D4C807A4496F7EAA10911 /* Pods-JCEmojiKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F528C9C5736DB4851B3FBE257E27B31E /* JCEmojiDataList.plist in Sources */ = {isa = PBXBuildFile; fileRef = 0A92CCFF39262DAE14E80AE8308A381D /* JCEmojiDataList.plist */; };
+		F589CD5A8AA1F91CD2954D4F996D87F3 /* JXSegmentedTitleImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A31E1E6D0A8FEA02465DA69B7400CE /* JXSegmentedTitleImageCell.swift */; };
+		F8BCCAA7C4EA06684EA9B52EE8708FAC /* JCEmojiTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7770C86401356C82C82F1A8560D85112 /* JCEmojiTool.swift */; };
+		F8D5F983CB9816A31B45F077FBACCE8C /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE9BD666138396F812003FD5527D50D /* Typealiases.swift */; };
+		FA8B76D57D28EB4F79115E9BA0C83FB7 /* JXSegmentedIndicatorImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1CC2DF9F811EEF99802289A6C2367F /* JXSegmentedIndicatorImageView.swift */; };
+		FADFBB911842566A4A8E1E9D6A02D640 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D3E3E90689760F08777948BCBCFA10 /* ConstraintItem.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07E9A0C483908924BA2B9EF5F5A6915D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D95C40D3A5E110945BECF1922BF1CE5;
+			remoteInfo = "Pods-JCEmojiKit_Example";
+		};
+		12523C45E6EA1C2A379492E868D70616 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E863A9A96F52A35F47491E7B41ECEF9A;
+			remoteInfo = JXSegmentedView;
+		};
+		1325260E158D943DF45AE3A3EE34D235 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70A7F4127F20A60D500377D3B7B0745C;
+			remoteInfo = "JCEmojiKit-JCEmojiKit";
+		};
+		17E2D835213AF2B7C4EE82E3624792C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08A9A20CD675AE735715E6806390912F;
+			remoteInfo = JCEmojiKit;
+		};
+		3C1F2AB7B129B9FC4FDDFC36BFCC08D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19622742EBA51E823D6DAE3F8CDBFAD4;
+			remoteInfo = SnapKit;
+		};
+		5C504F57461037FF24EFC7A3A8585568 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19622742EBA51E823D6DAE3F8CDBFAD4;
+			remoteInfo = SnapKit;
+		};
+		607F9E9622E836F1415B77496CC45B27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E863A9A96F52A35F47491E7B41ECEF9A;
+			remoteInfo = JXSegmentedView;
+		};
+		EA8C35BDBE80529E2373F9FAEB2B10CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52F43AC38D9FF80196C69FB03AEEFDDA;
+			remoteInfo = "JXSegmentedView-JXSegmentedView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		038DAACAA613EA1E205B51C40631850D /* JXSegmentedView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JXSegmentedView.modulemap; sourceTree = "<group>"; };
+		0395EFA601B2A835876351C605A8C66F /* Pods-JCEmojiKit_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-JCEmojiKit_Example"; path = Pods_JCEmojiKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F392268C0FA187C687265FD7D19B93 /* ConstraintDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDSL.swift; path = Sources/ConstraintDSL.swift; sourceTree = "<group>"; };
+		07928762D9A8551470DAAD7C1E1F53A5 /* JXSegmentedView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JXSegmentedView; path = JXSegmentedView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		099831C9589468C6E3336F8D44196D07 /* JXSegmentedIndicatorParams.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXSegmentedIndicatorParams.swift; path = Sources/Indicator/JXSegmentedIndicatorParams.swift; sourceTree = "<group>"; };
+		0A92CCFF39262DAE14E80AE8308A381D /* JCEmojiDataList.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = JCEmojiDataList.plist; path = JCEmojiKit/Classes/JCEmojiDataList.plist; sourceTree = "<group>"; };
+		0B7EF601015325881AB2DC51335DF3BC /* JXSegmentedIndicatorDotLineView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXSegmentedIndicatorDotLineView.swift; path = Sources/Indicator/JXSegmentedIndicatorDotLineView.swift; sourceTree = "<group>"; };
+		12D82BCCE2C40F3B8A7C571EB9C202A7 /* JXSegmentedIndicatorGradientView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXSegmentedIndicatorGradientView.swift; path = Sources/Indicator/JXSegmentedIndicatorGradientView.swift; sourceTree = "<group>"; };
+		12F982565E390D0D67FED4AB8149233B /* Pods-JCEmojiKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JCEmojiKit_Example-dummy.m"; sourceTree = "<group>"; };
+		195762F7FE4657255B314C1B9C30B4A2 /* JXSegmentedIndicatorBackgroundView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXSegmentedIndicatorBackgroundView.swift; path = Sources/Indicator/JXSegmentedIndicatorBackgroundView.swift; sourceTree = "<group>"; };
+		1FD7CCFA090A09FCEB25F7FC298675BD /* JXSegmentedTitleGradientCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXSegmentedTitleGradientCell.swift; path = Sources/TitleGradient/JXSegmentedTitleGradientCell.swift; sourceTree = "<group>"; };
+		22D778A1F15B5D3ABDBEDE1721857AA5 /* JCEmojiKeyBoardView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JCEmojiKeyBoardView.swift; path = JCEmojiKit/Classes/JCEmojiKeyBoardView.swift; sourceTree = "<group>"; };
+		242FFEDEAFB1CADD23EE69B2B5D6CC63 /* JCEmojiKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JCEmojiKit; path = JCEmojiKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		245FB0A0755FEF387A99D08A4478085E /* JCEmojiCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JCEmojiCell.swift; path = JCEmojiKit/Classes/JCEmojiCell.swift; sourceTree = "<group>"; };
+		25037DB09DCC3CBD967537AD038B61A9 /* JCEmojiKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JCEmojiKit-umbrella.h"; sourceTree = "<group>"; };
+		25A145C8508B0A787CA885DFE6135EA6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		298E77DB94986D36D69A72E3C02F3E83 /* JXSegmentedTitleGradientDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXSegmentedTitleGradientDataSource.swift; path = Sources/TitleGradient/JXSegmentedTitleGradientDataSource.swift; sourceTree = "<group>"; };
+		2BE9BD666138396F812003FD5527D50D /* Typealiases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Typealiases.swift; path = Sources/Typealiases.swift; sourceTree = "<group>"; };
+		2C38F9C3B5DFB4DA1DD23482A428B39F /* JXSegmentedCollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXSegmentedCollectionView.swift; path = Sources/Core/JXSegmentedCollectionView.swift; sourceTree = "<group>"; };
+		2DA198AC7618A25DAABC650E57D4D686 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		2E11AC01AFE0A16E624B6402AA78AF9B /* JXSegmentedView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JXSegmentedView.release.xcconfig; sourceTree = "<group>"; };
+		2E98FB1631BABED2106122B6FF9C5C09 /* JXSegmentedViewTool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXSegmentedViewTool.swift; path = Sources/Common/JXSegmentedViewTool.swift; sourceTree = "<group>"; };
+		2F697750CBF3F943B509C05BEC8DA8EC /* JXSegmentedIndicatorDoubleLineView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXSegmentedIndicatorDoubleLineView.swift; path = Sources/Indicator/JXSegmentedIndicatorDoubleLineView.swift; sourceTree = "<group>"; };
+		300B0BAC10EE8B78A11F7EB027DF50EE /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SnapKit.modulemap; sourceTree = "<group>"; };
+		30A2C87FEC314C7AB8BB59A68A2C13F0 /* Pods-JCEmojiKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JCEmojiKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		36A20EA5046B93648F4271A018967393 /* JXSegmentedIndicatorLineView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXSegmentedIndicatorLineView.swift; path = Sources/Indicator/JXSegmentedIndicatorLineView.swift; sourceTree = "<group>"; };
+		36B0C42BDF8266507CDDBFB5F06C4F3F /* JXSegmentedTitleImageDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXSegmentedTitleImageDataSource.swift; path = Sources/TitleImage/JXSegmentedTitleImageDataSource.swift; sourceTree = "<group>"; };
+		37DAC4F18D0D5888D220BA872F8FCCCD /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerExtendable.swift; path = Sources/ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
+		3822B619D677E89129F98546B6A577AF /* ConstraintMakerPrioritizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerPrioritizable.swift; path = Sources/ConstraintMakerPrioritizable.swift; sourceTree = "<group>"; };
+		394F2CACD5B4AEA7D2CBB883BF5F1BF7 /* JXSegmentedAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXSegmentedAnimator.swift; path = Sources/Common/JXSegmentedAnimator.swift; sourceTree = "<group>"; };
+		3C72B41FFE4D4C807A4496F7EAA10911 /* Pods-JCEmojiKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JCEmojiKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		3D544150772D6BEED3A3622A77538254 /* JCEmojiInputView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JCEmojiInputView.swift; path = JCEmojiKit/Classes/JCEmojiInputView.swift; sourceTree = "<group>"; };
+		3E18BD4B10CB34C04F9F207E7229B8CB /* ResourceBundle-JCEmojiKit-JCEmojiKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-JCEmojiKit-JCEmojiKit-Info.plist"; sourceTree = "<group>"; };
+		3E7F2032791023A25A1EAF43A8B80976 /* ConstraintDirectionalInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDirectionalInsets.swift; path = Sources/ConstraintDirectionalInsets.swift; sourceTree = "<group>"; };
+		4097BEEC1D523EBDAABFB44F20FD5649 /* JXSegmentedTitleOrImageCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXSegmentedTitleOrImageCell.swift; path = Sources/TitleOrImage/JXSegmentedTitleOrImageCell.swift; sourceTree = "<group>"; };
+		40C60705F23FFA5AC9606ACEAB676103 /* Pods-JCEmojiKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JCEmojiKit_Tests-Info.plist"; sourceTree = "<group>"; };
+		4EE3AC2DF187487F6CFA608584D41C4D /* JXSegmentedTitleImageItemModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXSegmentedTitleImageItemModel.swift; path = Sources/TitleImage/JXSegmentedTitleImageItemModel.swift; sourceTree = "<group>"; };
+		502B3FE73B7C36BE78F8933C9BCEF869 /* JCEmojiListView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JCEmojiListView.swift; path = JCEmojiKit/Classes/JCEmojiListView.swift; sourceTree = "<group>"; };
+		51D5248735ED6423DD00525395B3194E /* JXSegmentedTitleItemModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXSegmentedTitleItemModel.swift; path = Sources/Title/JXSegmentedTitleItemModel.swift; sourceTree = "<group>"; };
+		5ADFDCAF3C208879335CF2C72901287E /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMultiplierTarget.swift; path = Sources/ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
+		618B96AEB9BA3D416900077083C68EF4 /* Pods-JCEmojiKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JCEmojiKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		61F04CE77AF14A68E1A328A7291CD490 /* JXSegmentedNumberCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXSegmentedNumberCell.swift; path = Sources/Number/JXSegmentedNumberCell.swift; sourceTree = "<group>"; };
+		624FC7797EF68C53A76456D9573453C9 /* ConstraintInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsets.swift; path = Sources/ConstraintInsets.swift; sourceTree = "<group>"; };
+		6596CF44922F32956B0245ECA2E500BF /* JXSegmentedNumberItemModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXSegmentedNumberItemModel.swift; path = Sources/Number/JXSegmentedNumberItemModel.swift; sourceTree = "<group>"; };
+		65B7C4E2850EC40B699184642E27099B /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintLayoutGuide+Extensions.swift"; path = "Sources/ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
+		65D5A9BCB15BB68DD01CF568C177BF6D /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
+		66D547EB7DE48D5D0F195A40B4DCB136 /* Pods-JCEmojiKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JCEmojiKit_Example-Info.plist"; sourceTree = "<group>"; };
+		690ECB7752CE54E573143CD97FFD706B /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuide.swift; path = Sources/ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
+		692892FD7DD0DBF974BD8EB1550278C8 /* Pods-JCEmojiKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JCEmojiKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6D11D23BCCB65F829BA6320073BB0FCA /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintViewDSL.swift; path = Sources/ConstraintViewDSL.swift; sourceTree = "<group>"; };
+		6D433D02D479F88C4A6FC887974A970C /* JXSegmentedTitleGradientItemModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXSegmentedTitleGradientItemModel.swift; path = Sources/TitleGradient/JXSegmentedTitleGradientItemModel.swift; sourceTree = "<group>"; };
+		7195D1D6D169F065DC3D73045BD06939 /* JCEmojiKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JCEmojiKit-Info.plist"; sourceTree = "<group>"; };
+		7400B7466253D1356AD6DD07AC1D99FE /* JXSegmentedView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JXSegmentedView-umbrella.h"; sourceTree = "<group>"; };
+		74D3E3E90689760F08777948BCBCFA10 /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Sources/ConstraintItem.swift; sourceTree = "<group>"; };
+		7544AEC44A628940E87055B0F82D73A6 /* Pods-JCEmojiKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JCEmojiKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		76BF881C295087D7561D1BD1E227D5AC /* JXSegmentedTitleCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXSegmentedTitleCell.swift; path = Sources/Title/JXSegmentedTitleCell.swift; sourceTree = "<group>"; };
+		76C645C92629075AF417A340B6680026 /* JXSegmentedTitleOrImageDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXSegmentedTitleOrImageDataSource.swift; path = Sources/TitleOrImage/JXSegmentedTitleOrImageDataSource.swift; sourceTree = "<group>"; };
+		7770C86401356C82C82F1A8560D85112 /* JCEmojiTool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JCEmojiTool.swift; path = JCEmojiKit/Classes/JCEmojiTool.swift; sourceTree = "<group>"; };
+		777B2163101035063A5A4DF66027F279 /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerRelatable.swift; path = Sources/ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
+		7C0631BF5E7AD954199A9645854816ED /* ConstraintPriority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriority.swift; path = Sources/ConstraintPriority.swift; sourceTree = "<group>"; };
+		7D98E92DCCF136681DDE01515241EAEB /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupport.swift; path = Sources/ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
+		80934EBA0B6E8C58F2564B7F0621FB01 /* JXSegmentedView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JXSegmentedView.debug.xcconfig; sourceTree = "<group>"; };
+		83EFE2F25A6201537684F1E1D512E724 /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Sources/Constraint.swift; sourceTree = "<group>"; };
+		83F5DBB36DEBB361B67D8932C68CDBA8 /* JXSegmentedIndicatorRainbowLineView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXSegmentedIndicatorRainbowLineView.swift; path = Sources/Indicator/JXSegmentedIndicatorRainbowLineView.swift; sourceTree = "<group>"; };
+		840014E50D9F37212E36FD3A4388CAF6 /* JXSegmentedTitleAttributeCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXSegmentedTitleAttributeCell.swift; path = Sources/AttributeTitle/JXSegmentedTitleAttributeCell.swift; sourceTree = "<group>"; };
+		887F852D0C8113F5ECF5B19B8E489BEF /* JXSegmentedTitleDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXSegmentedTitleDataSource.swift; path = Sources/Title/JXSegmentedTitleDataSource.swift; sourceTree = "<group>"; };
+		8B6B7CF428BFBD9C9C43F4AF76EB0D53 /* ConstraintView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintView.swift; path = Sources/ConstraintView.swift; sourceTree = "<group>"; };
+		8B71BAC1F433A0BF0074FAB76862B218 /* JCEmojiKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JCEmojiKit-prefix.pch"; sourceTree = "<group>"; };
+		8C0EA2D8918B93D598C118E300DC4BB4 /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILayoutSupport+Extensions.swift"; path = "Sources/UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
+		8E6DDBB771930C4B1617CD8FC73286C9 /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Sources/ConstraintRelation.swift; sourceTree = "<group>"; };
+		90506FAB27558317B38545D16CB7E3A3 /* JCEmojiKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JCEmojiKit-dummy.m"; sourceTree = "<group>"; };
+		92B0EC788EDA1B0CFA48DFFCB3DDAECD /* JXSegmentedView-JXSegmentedView */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "JXSegmentedView-JXSegmentedView"; path = JXSegmentedView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		959A6C65E403437A0ED3E0A89009C8CC /* Pods-JCEmojiKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JCEmojiKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		965B0B9D7DF6DC02B34DA9088C91A46A /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerFinalizable.swift; path = Sources/ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
+		9770DD924F6DF23FFE58FDDF32BAF790 /* JXSegmentedIndicatorProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXSegmentedIndicatorProtocol.swift; path = Sources/Indicator/JXSegmentedIndicatorProtocol.swift; sourceTree = "<group>"; };
+		979486118B3E90C08386079D57962701 /* SnapKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnapKit; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9946479E1CF88119AC9F1499C0204945 /* JXSegmentedView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JXSegmentedView-dummy.m"; sourceTree = "<group>"; };
+		9A3277DA92709C73FE9D77711EA59A7E /* JXSegmentedView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXSegmentedView.swift; path = Sources/Core/JXSegmentedView.swift; sourceTree = "<group>"; };
+		9AF35B4EFBA2B96C42559300BC1A6079 /* JXSegmentedIndicatorGradientLineView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXSegmentedIndicatorGradientLineView.swift; path = Sources/Indicator/JXSegmentedIndicatorGradientLineView.swift; sourceTree = "<group>"; };
+		9CCE6D889CC04202D6452B7A6EEDBAEF /* JXSegmentedDotDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXSegmentedDotDataSource.swift; path = Sources/Dot/JXSegmentedDotDataSource.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A002246719FB9539EA624BE76A7363C9 /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintOffsetTarget.swift; path = Sources/ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
+		A082AE904FFCE816D91F5EBAECCE9D4B /* Pods-JCEmojiKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JCEmojiKit_Tests.modulemap"; sourceTree = "<group>"; };
+		A132A008E94A520F8AEC9256DC721251 /* SnapKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SnapKit-Info.plist"; sourceTree = "<group>"; };
+		A4DE7173A1DF27F89824135C25A57351 /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-umbrella.h"; sourceTree = "<group>"; };
+		A675F717154BBC45133C9717FE4F54E9 /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelatableTarget.swift; path = Sources/ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
+		A8DD9CFA00FDF6D55FCCA0D066928E3B /* JXSegmentedView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JXSegmentedView-prefix.pch"; sourceTree = "<group>"; };
+		A966076C6307DCC90EF44F55CC7CF41C /* Pods-JCEmojiKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JCEmojiKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		AB68D3C4AC269CB1F8CB35D293D1437F /* Pods-JCEmojiKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JCEmojiKit_Example.modulemap"; sourceTree = "<group>"; };
+		ACC56495C1E8BB04640B12A75D5FDFA3 /* JCEmojiDataManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JCEmojiDataManager.swift; path = JCEmojiKit/Classes/JCEmojiDataManager.swift; sourceTree = "<group>"; };
+		AD8DE7117486C351AA3FB5830E684448 /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriorityTarget.swift; path = Sources/ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
+		AE00A08886DC1E51F8FFEBECFE67308B /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupportDSL.swift; path = Sources/ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
+		AF3226A9B937733832EE5C600E4D5A43 /* ConstraintConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConfig.swift; path = Sources/ConstraintConfig.swift; sourceTree = "<group>"; };
+		AFB7740DE0E7C9B722570A30AF796420 /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsetTarget.swift; path = Sources/ConstraintInsetTarget.swift; sourceTree = "<group>"; };
+		B06112088E73B30D5BEF9C4FC9044B16 /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintView+Extensions.swift"; path = "Sources/ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
+		B27E4E6E6065C5156DAA46F525030834 /* JXSegmentedView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JXSegmentedView-Info.plist"; sourceTree = "<group>"; };
+		B35723F991635BC787BF9A891B87733F /* ConstraintDirectionalInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDirectionalInsetTarget.swift; path = Sources/ConstraintDirectionalInsetTarget.swift; sourceTree = "<group>"; };
+		B55AC7D95DD08CDE7A63CD1E2392DC65 /* Pods-JCEmojiKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JCEmojiKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		B5A3196930CDDF748094B3750282B036 /* JXSegmentedBaseDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXSegmentedBaseDataSource.swift; path = Sources/Core/JXSegmentedBaseDataSource.swift; sourceTree = "<group>"; };
+		B6BC3B43B3D67E09B43D52974130B589 /* JXSegmentedNumberDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXSegmentedNumberDataSource.swift; path = Sources/Number/JXSegmentedNumberDataSource.swift; sourceTree = "<group>"; };
+		B970EF62314C226D2963DEC81E226202 /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConstantTarget.swift; path = Sources/ConstraintConstantTarget.swift; sourceTree = "<group>"; };
+		BAD3CFFC42752BC3FB421142F8DA7BF2 /* JXSegmentedComponetGradientView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXSegmentedComponetGradientView.swift; path = Sources/Indicator/JXSegmentedComponetGradientView.swift; sourceTree = "<group>"; };
+		BB7926753F25A1270EFFEB15538483F2 /* JCEmojiKit-JCEmojiKit */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "JCEmojiKit-JCEmojiKit"; path = JCEmojiKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE94A5F3C2F1A0398B8731127BE44E18 /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraintItem.swift; path = Sources/LayoutConstraintItem.swift; sourceTree = "<group>"; };
+		BF7D6DF78EF41C17A4A67388AC9FB19A /* JXSegmentedTitleDynamicConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXSegmentedTitleDynamicConfiguration.swift; path = Sources/Title/JXSegmentedTitleDynamicConfiguration.swift; sourceTree = "<group>"; };
+		C073D5200FFE8D63448927922757BF62 /* Pods-JCEmojiKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JCEmojiKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C0BDBA836B47CA333CA7F2E5E2E8A0F5 /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Sources/ConstraintMaker.swift; sourceTree = "<group>"; };
+		C25BEB5897289B599EE6C01AA85C54D0 /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Sources/Debugging.swift; sourceTree = "<group>"; };
+		C5CD068CDA22C926DCA33E9DACD27151 /* Pods-JCEmojiKit_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-JCEmojiKit_Tests"; path = Pods_JCEmojiKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C927B3979AC7322A879EC3A8F004E71D /* JXSegmentedBaseCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXSegmentedBaseCell.swift; path = Sources/Core/JXSegmentedBaseCell.swift; sourceTree = "<group>"; };
+		C9FC13B18F872F137C03A648CED6EBB5 /* JXSegmentedTitleAttributeDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXSegmentedTitleAttributeDataSource.swift; path = Sources/AttributeTitle/JXSegmentedTitleAttributeDataSource.swift; sourceTree = "<group>"; };
+		CAB0577F020F2BF0C07FAC6D59BD34F9 /* JXSegmentedTitleAttributeItemModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXSegmentedTitleAttributeItemModel.swift; path = Sources/AttributeTitle/JXSegmentedTitleAttributeItemModel.swift; sourceTree = "<group>"; };
+		CC935125719017AC4B7B02321FAF80C3 /* JCEmojiKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JCEmojiKit.modulemap; sourceTree = "<group>"; };
+		CF1CC2DF9F811EEF99802289A6C2367F /* JXSegmentedIndicatorImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXSegmentedIndicatorImageView.swift; path = Sources/Indicator/JXSegmentedIndicatorImageView.swift; sourceTree = "<group>"; };
+		CF74D3E62D337154569D4411733728D7 /* JXSegmentedDotItemModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXSegmentedDotItemModel.swift; path = Sources/Dot/JXSegmentedDotItemModel.swift; sourceTree = "<group>"; };
+		D1A07B5AD65F0410DA80810A8250A29F /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
+		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D2A31E1E6D0A8FEA02465DA69B7400CE /* JXSegmentedTitleImageCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXSegmentedTitleImageCell.swift; path = Sources/TitleImage/JXSegmentedTitleImageCell.swift; sourceTree = "<group>"; };
+		D5BAAFDFA8DF9BCCE542835F0FB1FF6C /* JXSegmentedDotCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXSegmentedDotCell.swift; path = Sources/Dot/JXSegmentedDotCell.swift; sourceTree = "<group>"; };
+		D7D91033424A08547393AD9235582DD1 /* JXSegmentedBaseItemModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXSegmentedBaseItemModel.swift; path = Sources/Core/JXSegmentedBaseItemModel.swift; sourceTree = "<group>"; };
+		D8988B1D7CC62118F03F4BE3FF102F21 /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuideDSL.swift; path = Sources/ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
+		D940F1AB30B676F66DAAEC84EDD0A475 /* JXSegmentedRTLLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXSegmentedRTLLayout.swift; path = Sources/Common/JXSegmentedRTLLayout.swift; sourceTree = "<group>"; };
+		DA82CC5AF66AB0C4B2E537EA53C911C4 /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerEditable.swift; path = Sources/ConstraintMakerEditable.swift; sourceTree = "<group>"; };
+		DD6236A9FBDC8663FF765CCFEB3A1787 /* JCEmojiModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JCEmojiModel.swift; path = JCEmojiKit/Classes/JCEmojiModel.swift; sourceTree = "<group>"; };
+		DFC97F5E0C9ADD0CAB0AC4B3364B5BD2 /* JXSegmentedIndicatorTriangleView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXSegmentedIndicatorTriangleView.swift; path = Sources/Indicator/JXSegmentedIndicatorTriangleView.swift; sourceTree = "<group>"; };
+		DFE2E29971829AC97F5BA03ED5A0EF6B /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Sources/ConstraintDescription.swift; sourceTree = "<group>"; };
+		DFEED60073E7282DC3A8281A726F5931 /* Pods-JCEmojiKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JCEmojiKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E0E9BB73AE6F8FCC18B371D0B74FD442 /* JXSegmentedIndicatorBaseView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXSegmentedIndicatorBaseView.swift; path = Sources/Indicator/JXSegmentedIndicatorBaseView.swift; sourceTree = "<group>"; };
+		E74A46B8355AEAF835B3278F44D895DD /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = JCEmojiKit/Assets/Assets.xcassets; sourceTree = "<group>"; };
+		E81897463BE03310F741534D6D21C4C1 /* JCEmojiKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JCEmojiKit.debug.xcconfig; sourceTree = "<group>"; };
+		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EAE1AF4EF086EE9D6598FB8E8E8C09FF /* SnapKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.debug.xcconfig; sourceTree = "<group>"; };
+		EB6240B3ADF281CAE2B412B0543FEDAC /* SnapKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.release.xcconfig; sourceTree = "<group>"; };
+		EC81B5AA64D2B7458245F6CD7AF5B67A /* Pods-JCEmojiKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JCEmojiKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		ED5A1A275B623ABBC455F7116C5F3BE0 /* Pods-JCEmojiKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JCEmojiKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		EE622E84AC450F6A0D5DC5BF5BE5840C /* ResourceBundle-JXSegmentedView-JXSegmentedView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-JXSegmentedView-JXSegmentedView-Info.plist"; sourceTree = "<group>"; };
+		F100F0E8D9BEE9E015E59E1DDFFD0A3D /* JCEmojiKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JCEmojiKit.release.xcconfig; sourceTree = "<group>"; };
+		F28EC05B20CB551D1F1B529F4B39ECDA /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Sources/ConstraintAttributes.swift; sourceTree = "<group>"; };
+		F42C27D726882B8D2C11825D6ECAEF09 /* JXSegmentedTitleOrImageItemModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXSegmentedTitleOrImageItemModel.swift; path = Sources/TitleOrImage/JXSegmentedTitleOrImageItemModel.swift; sourceTree = "<group>"; };
+		F443935E1D02152CD140A9C089E9128E /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Sources/LayoutConstraint.swift; sourceTree = "<group>"; };
+		FB984786C203B1128AD81CA33CC59614 /* JCEmojiKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JCEmojiKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FBD18CE00182795BE0167017B7420043 /* ConstraintMakerRelatable+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintMakerRelatable+Extensions.swift"; path = "Sources/ConstraintMakerRelatable+Extensions.swift"; sourceTree = "<group>"; };
+		FCB70EDAA905C28A8A0E7AFFAB6B4F95 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = Sources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		FDC4766BCB40EE1D3A2486F5E024803A /* JXSegmentedListContainerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXSegmentedListContainerView.swift; path = Sources/Common/JXSegmentedListContainerView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15314937AB37103BF73D955949512776 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8DDBE0069C23FE52A30ACE745F34A47 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CD0DFC7568D23EE9E0D55B0A11C183C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77544AC936AA897E54ECBED74CB6C639 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A67FE17805B29E84D622597E7ED157B6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		832DB959EC97CE81B6D094BB6087BC85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40F52208ADA70A933BE586AC6E906A0B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83ECB3A4AB923D84A27E9724640E1266 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07CBCDA7B26929BF25414C1D6C5223EB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE8DAEB12B1BFB695D597E205AE9FCA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C01D663E356B2841BB5D64274A3856B8 /* Foundation.framework in Frameworks */,
+				AB8DB5E85DD78208D21A124E30A90951 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3C4EED7BB64D1E7DDC96F8AD03BDC72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1B17BC55C6A27BF8814569DC1D9F12E9 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C40EACC1EFB8AA808B3CD96ADC928CE2 /* JCEmojiKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		1C11EDA862A735E32030F2C4ACE23EA0 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				FB984786C203B1128AD81CA33CC59614 /* JCEmojiKit.podspec */,
+				2DA198AC7618A25DAABC650E57D4D686 /* LICENSE */,
+				25A145C8508B0A787CA885DFE6135EA6 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		21DC94B882444309AC315C28C4FEF809 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5EAE3EA2B4BAF3EA7504195285888DB /* JXSegmentedView */,
+				E263589FB23E65F9B6CDCA98A8C9D212 /* SnapKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
+				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		693ABED6C11BD28FA6EA3ACD85D2DE21 /* Pods-JCEmojiKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A082AE904FFCE816D91F5EBAECCE9D4B /* Pods-JCEmojiKit_Tests.modulemap */,
+				692892FD7DD0DBF974BD8EB1550278C8 /* Pods-JCEmojiKit_Tests-acknowledgements.markdown */,
+				30A2C87FEC314C7AB8BB59A68A2C13F0 /* Pods-JCEmojiKit_Tests-acknowledgements.plist */,
+				EC81B5AA64D2B7458245F6CD7AF5B67A /* Pods-JCEmojiKit_Tests-dummy.m */,
+				40C60705F23FFA5AC9606ACEAB676103 /* Pods-JCEmojiKit_Tests-Info.plist */,
+				3C72B41FFE4D4C807A4496F7EAA10911 /* Pods-JCEmojiKit_Tests-umbrella.h */,
+				A966076C6307DCC90EF44F55CC7CF41C /* Pods-JCEmojiKit_Tests.debug.xcconfig */,
+				DFEED60073E7282DC3A8281A726F5931 /* Pods-JCEmojiKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-JCEmojiKit_Tests";
+			path = "Target Support Files/Pods-JCEmojiKit_Tests";
+			sourceTree = "<group>";
+		};
+		6CF11ACAC69238B41545078CB4446ADA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				300B0BAC10EE8B78A11F7EB027DF50EE /* SnapKit.modulemap */,
+				D1A07B5AD65F0410DA80810A8250A29F /* SnapKit-dummy.m */,
+				A132A008E94A520F8AEC9256DC721251 /* SnapKit-Info.plist */,
+				65D5A9BCB15BB68DD01CF568C177BF6D /* SnapKit-prefix.pch */,
+				A4DE7173A1DF27F89824135C25A57351 /* SnapKit-umbrella.h */,
+				EAE1AF4EF086EE9D6598FB8E8E8C09FF /* SnapKit.debug.xcconfig */,
+				EB6240B3ADF281CAE2B412B0543FEDAC /* SnapKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SnapKit";
+			sourceTree = "<group>";
+		};
+		97CCDC5A769F5158F5F75FDEFA72AC2B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				242FFEDEAFB1CADD23EE69B2B5D6CC63 /* JCEmojiKit */,
+				BB7926753F25A1270EFFEB15538483F2 /* JCEmojiKit-JCEmojiKit */,
+				07928762D9A8551470DAAD7C1E1F53A5 /* JXSegmentedView */,
+				92B0EC788EDA1B0CFA48DFFCB3DDAECD /* JXSegmentedView-JXSegmentedView */,
+				0395EFA601B2A835876351C605A8C66F /* Pods-JCEmojiKit_Example */,
+				C5CD068CDA22C926DCA33E9DACD27151 /* Pods-JCEmojiKit_Tests */,
+				979486118B3E90C08386079D57962701 /* SnapKit */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B29ACE71E052FB9AEDA48E61A2A0E876 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				038DAACAA613EA1E205B51C40631850D /* JXSegmentedView.modulemap */,
+				9946479E1CF88119AC9F1499C0204945 /* JXSegmentedView-dummy.m */,
+				B27E4E6E6065C5156DAA46F525030834 /* JXSegmentedView-Info.plist */,
+				A8DD9CFA00FDF6D55FCCA0D066928E3B /* JXSegmentedView-prefix.pch */,
+				7400B7466253D1356AD6DD07AC1D99FE /* JXSegmentedView-umbrella.h */,
+				80934EBA0B6E8C58F2564B7F0621FB01 /* JXSegmentedView.debug.xcconfig */,
+				2E11AC01AFE0A16E624B6402AA78AF9B /* JXSegmentedView.release.xcconfig */,
+				EE622E84AC450F6A0D5DC5BF5BE5840C /* ResourceBundle-JXSegmentedView-JXSegmentedView-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JXSegmentedView";
+			sourceTree = "<group>";
+		};
+		B34A4B65F144219737934452BEDA4FCA /* Pods-JCEmojiKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				AB68D3C4AC269CB1F8CB35D293D1437F /* Pods-JCEmojiKit_Example.modulemap */,
+				618B96AEB9BA3D416900077083C68EF4 /* Pods-JCEmojiKit_Example-acknowledgements.markdown */,
+				ED5A1A275B623ABBC455F7116C5F3BE0 /* Pods-JCEmojiKit_Example-acknowledgements.plist */,
+				12F982565E390D0D67FED4AB8149233B /* Pods-JCEmojiKit_Example-dummy.m */,
+				959A6C65E403437A0ED3E0A89009C8CC /* Pods-JCEmojiKit_Example-frameworks.sh */,
+				66D547EB7DE48D5D0F195A40B4DCB136 /* Pods-JCEmojiKit_Example-Info.plist */,
+				B55AC7D95DD08CDE7A63CD1E2392DC65 /* Pods-JCEmojiKit_Example-umbrella.h */,
+				C073D5200FFE8D63448927922757BF62 /* Pods-JCEmojiKit_Example.debug.xcconfig */,
+				7544AEC44A628940E87055B0F82D73A6 /* Pods-JCEmojiKit_Example.release.xcconfig */,
+			);
+			name = "Pods-JCEmojiKit_Example";
+			path = "Target Support Files/Pods-JCEmojiKit_Example";
+			sourceTree = "<group>";
+		};
+		B851F5DA93A47EE2927E01C3417FB6B8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B34A4B65F144219737934452BEDA4FCA /* Pods-JCEmojiKit_Example */,
+				693ABED6C11BD28FA6EA3ACD85D2DE21 /* Pods-JCEmojiKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C20C5E5C867D0795A7EA69714CA3A5D0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC935125719017AC4B7B02321FAF80C3 /* JCEmojiKit.modulemap */,
+				90506FAB27558317B38545D16CB7E3A3 /* JCEmojiKit-dummy.m */,
+				7195D1D6D169F065DC3D73045BD06939 /* JCEmojiKit-Info.plist */,
+				8B71BAC1F433A0BF0074FAB76862B218 /* JCEmojiKit-prefix.pch */,
+				25037DB09DCC3CBD967537AD038B61A9 /* JCEmojiKit-umbrella.h */,
+				E81897463BE03310F741534D6D21C4C1 /* JCEmojiKit.debug.xcconfig */,
+				F100F0E8D9BEE9E015E59E1DDFFD0A3D /* JCEmojiKit.release.xcconfig */,
+				3E18BD4B10CB34C04F9F207E7229B8CB /* ResourceBundle-JCEmojiKit-JCEmojiKit-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JCEmojiKit";
+			sourceTree = "<group>";
+		};
+		C40EACC1EFB8AA808B3CD96ADC928CE2 /* JCEmojiKit */ = {
+			isa = PBXGroup;
+			children = (
+				E74A46B8355AEAF835B3278F44D895DD /* Assets.xcassets */,
+				245FB0A0755FEF387A99D08A4478085E /* JCEmojiCell.swift */,
+				0A92CCFF39262DAE14E80AE8308A381D /* JCEmojiDataList.plist */,
+				ACC56495C1E8BB04640B12A75D5FDFA3 /* JCEmojiDataManager.swift */,
+				3D544150772D6BEED3A3622A77538254 /* JCEmojiInputView.swift */,
+				22D778A1F15B5D3ABDBEDE1721857AA5 /* JCEmojiKeyBoardView.swift */,
+				502B3FE73B7C36BE78F8933C9BCEF869 /* JCEmojiListView.swift */,
+				DD6236A9FBDC8663FF765CCFEB3A1787 /* JCEmojiModel.swift */,
+				7770C86401356C82C82F1A8560D85112 /* JCEmojiTool.swift */,
+				1C11EDA862A735E32030F2C4ACE23EA0 /* Pod */,
+				C20C5E5C867D0795A7EA69714CA3A5D0 /* Support Files */,
+			);
+			name = JCEmojiKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1B17BC55C6A27BF8814569DC1D9F12E9 /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				21DC94B882444309AC315C28C4FEF809 /* Pods */,
+				97CCDC5A769F5158F5F75FDEFA72AC2B /* Products */,
+				B851F5DA93A47EE2927E01C3417FB6B8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E263589FB23E65F9B6CDCA98A8C9D212 /* SnapKit */ = {
+			isa = PBXGroup;
+			children = (
+				83EFE2F25A6201537684F1E1D512E724 /* Constraint.swift */,
+				F28EC05B20CB551D1F1B529F4B39ECDA /* ConstraintAttributes.swift */,
+				AF3226A9B937733832EE5C600E4D5A43 /* ConstraintConfig.swift */,
+				B970EF62314C226D2963DEC81E226202 /* ConstraintConstantTarget.swift */,
+				DFE2E29971829AC97F5BA03ED5A0EF6B /* ConstraintDescription.swift */,
+				3E7F2032791023A25A1EAF43A8B80976 /* ConstraintDirectionalInsets.swift */,
+				B35723F991635BC787BF9A891B87733F /* ConstraintDirectionalInsetTarget.swift */,
+				04F392268C0FA187C687265FD7D19B93 /* ConstraintDSL.swift */,
+				624FC7797EF68C53A76456D9573453C9 /* ConstraintInsets.swift */,
+				AFB7740DE0E7C9B722570A30AF796420 /* ConstraintInsetTarget.swift */,
+				74D3E3E90689760F08777948BCBCFA10 /* ConstraintItem.swift */,
+				690ECB7752CE54E573143CD97FFD706B /* ConstraintLayoutGuide.swift */,
+				65B7C4E2850EC40B699184642E27099B /* ConstraintLayoutGuide+Extensions.swift */,
+				D8988B1D7CC62118F03F4BE3FF102F21 /* ConstraintLayoutGuideDSL.swift */,
+				7D98E92DCCF136681DDE01515241EAEB /* ConstraintLayoutSupport.swift */,
+				AE00A08886DC1E51F8FFEBECFE67308B /* ConstraintLayoutSupportDSL.swift */,
+				C0BDBA836B47CA333CA7F2E5E2E8A0F5 /* ConstraintMaker.swift */,
+				DA82CC5AF66AB0C4B2E537EA53C911C4 /* ConstraintMakerEditable.swift */,
+				37DAC4F18D0D5888D220BA872F8FCCCD /* ConstraintMakerExtendable.swift */,
+				965B0B9D7DF6DC02B34DA9088C91A46A /* ConstraintMakerFinalizable.swift */,
+				3822B619D677E89129F98546B6A577AF /* ConstraintMakerPrioritizable.swift */,
+				777B2163101035063A5A4DF66027F279 /* ConstraintMakerRelatable.swift */,
+				FBD18CE00182795BE0167017B7420043 /* ConstraintMakerRelatable+Extensions.swift */,
+				5ADFDCAF3C208879335CF2C72901287E /* ConstraintMultiplierTarget.swift */,
+				A002246719FB9539EA624BE76A7363C9 /* ConstraintOffsetTarget.swift */,
+				7C0631BF5E7AD954199A9645854816ED /* ConstraintPriority.swift */,
+				AD8DE7117486C351AA3FB5830E684448 /* ConstraintPriorityTarget.swift */,
+				A675F717154BBC45133C9717FE4F54E9 /* ConstraintRelatableTarget.swift */,
+				8E6DDBB771930C4B1617CD8FC73286C9 /* ConstraintRelation.swift */,
+				8B6B7CF428BFBD9C9C43F4AF76EB0D53 /* ConstraintView.swift */,
+				B06112088E73B30D5BEF9C4FC9044B16 /* ConstraintView+Extensions.swift */,
+				6D11D23BCCB65F829BA6320073BB0FCA /* ConstraintViewDSL.swift */,
+				C25BEB5897289B599EE6C01AA85C54D0 /* Debugging.swift */,
+				F443935E1D02152CD140A9C089E9128E /* LayoutConstraint.swift */,
+				BE94A5F3C2F1A0398B8731127BE44E18 /* LayoutConstraintItem.swift */,
+				2BE9BD666138396F812003FD5527D50D /* Typealiases.swift */,
+				8C0EA2D8918B93D598C118E300DC4BB4 /* UILayoutSupport+Extensions.swift */,
+				6CF11ACAC69238B41545078CB4446ADA /* Support Files */,
+			);
+			name = SnapKit;
+			path = SnapKit;
+			sourceTree = "<group>";
+		};
+		E5EAE3EA2B4BAF3EA7504195285888DB /* JXSegmentedView */ = {
+			isa = PBXGroup;
+			children = (
+				394F2CACD5B4AEA7D2CBB883BF5F1BF7 /* JXSegmentedAnimator.swift */,
+				C927B3979AC7322A879EC3A8F004E71D /* JXSegmentedBaseCell.swift */,
+				B5A3196930CDDF748094B3750282B036 /* JXSegmentedBaseDataSource.swift */,
+				D7D91033424A08547393AD9235582DD1 /* JXSegmentedBaseItemModel.swift */,
+				2C38F9C3B5DFB4DA1DD23482A428B39F /* JXSegmentedCollectionView.swift */,
+				BAD3CFFC42752BC3FB421142F8DA7BF2 /* JXSegmentedComponetGradientView.swift */,
+				D5BAAFDFA8DF9BCCE542835F0FB1FF6C /* JXSegmentedDotCell.swift */,
+				9CCE6D889CC04202D6452B7A6EEDBAEF /* JXSegmentedDotDataSource.swift */,
+				CF74D3E62D337154569D4411733728D7 /* JXSegmentedDotItemModel.swift */,
+				195762F7FE4657255B314C1B9C30B4A2 /* JXSegmentedIndicatorBackgroundView.swift */,
+				E0E9BB73AE6F8FCC18B371D0B74FD442 /* JXSegmentedIndicatorBaseView.swift */,
+				0B7EF601015325881AB2DC51335DF3BC /* JXSegmentedIndicatorDotLineView.swift */,
+				2F697750CBF3F943B509C05BEC8DA8EC /* JXSegmentedIndicatorDoubleLineView.swift */,
+				9AF35B4EFBA2B96C42559300BC1A6079 /* JXSegmentedIndicatorGradientLineView.swift */,
+				12D82BCCE2C40F3B8A7C571EB9C202A7 /* JXSegmentedIndicatorGradientView.swift */,
+				CF1CC2DF9F811EEF99802289A6C2367F /* JXSegmentedIndicatorImageView.swift */,
+				36A20EA5046B93648F4271A018967393 /* JXSegmentedIndicatorLineView.swift */,
+				099831C9589468C6E3336F8D44196D07 /* JXSegmentedIndicatorParams.swift */,
+				9770DD924F6DF23FFE58FDDF32BAF790 /* JXSegmentedIndicatorProtocol.swift */,
+				83F5DBB36DEBB361B67D8932C68CDBA8 /* JXSegmentedIndicatorRainbowLineView.swift */,
+				DFC97F5E0C9ADD0CAB0AC4B3364B5BD2 /* JXSegmentedIndicatorTriangleView.swift */,
+				FDC4766BCB40EE1D3A2486F5E024803A /* JXSegmentedListContainerView.swift */,
+				61F04CE77AF14A68E1A328A7291CD490 /* JXSegmentedNumberCell.swift */,
+				B6BC3B43B3D67E09B43D52974130B589 /* JXSegmentedNumberDataSource.swift */,
+				6596CF44922F32956B0245ECA2E500BF /* JXSegmentedNumberItemModel.swift */,
+				D940F1AB30B676F66DAAEC84EDD0A475 /* JXSegmentedRTLLayout.swift */,
+				840014E50D9F37212E36FD3A4388CAF6 /* JXSegmentedTitleAttributeCell.swift */,
+				C9FC13B18F872F137C03A648CED6EBB5 /* JXSegmentedTitleAttributeDataSource.swift */,
+				CAB0577F020F2BF0C07FAC6D59BD34F9 /* JXSegmentedTitleAttributeItemModel.swift */,
+				76BF881C295087D7561D1BD1E227D5AC /* JXSegmentedTitleCell.swift */,
+				887F852D0C8113F5ECF5B19B8E489BEF /* JXSegmentedTitleDataSource.swift */,
+				BF7D6DF78EF41C17A4A67388AC9FB19A /* JXSegmentedTitleDynamicConfiguration.swift */,
+				1FD7CCFA090A09FCEB25F7FC298675BD /* JXSegmentedTitleGradientCell.swift */,
+				298E77DB94986D36D69A72E3C02F3E83 /* JXSegmentedTitleGradientDataSource.swift */,
+				6D433D02D479F88C4A6FC887974A970C /* JXSegmentedTitleGradientItemModel.swift */,
+				D2A31E1E6D0A8FEA02465DA69B7400CE /* JXSegmentedTitleImageCell.swift */,
+				36B0C42BDF8266507CDDBFB5F06C4F3F /* JXSegmentedTitleImageDataSource.swift */,
+				4EE3AC2DF187487F6CFA608584D41C4D /* JXSegmentedTitleImageItemModel.swift */,
+				51D5248735ED6423DD00525395B3194E /* JXSegmentedTitleItemModel.swift */,
+				4097BEEC1D523EBDAABFB44F20FD5649 /* JXSegmentedTitleOrImageCell.swift */,
+				76C645C92629075AF417A340B6680026 /* JXSegmentedTitleOrImageDataSource.swift */,
+				F42C27D726882B8D2C11825D6ECAEF09 /* JXSegmentedTitleOrImageItemModel.swift */,
+				9A3277DA92709C73FE9D77711EA59A7E /* JXSegmentedView.swift */,
+				2E98FB1631BABED2106122B6FF9C5C09 /* JXSegmentedViewTool.swift */,
+				FB3686D2E9A490624558B42B315761D2 /* Resources */,
+				B29ACE71E052FB9AEDA48E61A2A0E876 /* Support Files */,
+			);
+			name = JXSegmentedView;
+			path = JXSegmentedView;
+			sourceTree = "<group>";
+		};
+		FB3686D2E9A490624558B42B315761D2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FCB70EDAA905C28A8A0E7AFFAB6B4F95 /* PrivacyInfo.xcprivacy */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		38F44CBA5B9BB73B8611E44620C8AD34 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				068371A99B1BB79E2FBD8988D8072CDC /* JCEmojiKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E9C7EB3478724D7E2E839E2CEF092CE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F78AF049470C4742C08CAB4CD8F6DA5 /* Pods-JCEmojiKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B44E2D4AA453C54E4545DBB51A22FD33 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF58F7E4B5304F3DA430136D6A39ADAC /* Pods-JCEmojiKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D387C1EE0A546049498A6C349551EB46 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB281183CC0CD458466FF74E96F84BEC /* SnapKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE2C5857D23B3A4EF08EB94F34A1E2D7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CF66465C93BD24FF562B1E4D1CA1DFD /* JXSegmentedView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		08A9A20CD675AE735715E6806390912F /* JCEmojiKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B083C11482CB94927306C590DC66963 /* Build configuration list for PBXNativeTarget "JCEmojiKit" */;
+			buildPhases = (
+				38F44CBA5B9BB73B8611E44620C8AD34 /* Headers */,
+				0B2EED0027B6CF99E5715FFFA64F98E5 /* Sources */,
+				832DB959EC97CE81B6D094BB6087BC85 /* Frameworks */,
+				8FE21AD17ACA0A64FC1ECFB83DB8E3F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07814EE8F6440B579B19A7FE90041A96 /* PBXTargetDependency */,
+				1A92BD3BB7F8A71300C9BE6189CDA981 /* PBXTargetDependency */,
+				37A87B17197867D325DD7FB16605254B /* PBXTargetDependency */,
+			);
+			name = JCEmojiKit;
+			productName = JCEmojiKit;
+			productReference = 242FFEDEAFB1CADD23EE69B2B5D6CC63 /* JCEmojiKit */;
+			productType = "com.apple.product-type.framework";
+		};
+		19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBC61E0DDA282A787A12190667B2910F /* Build configuration list for PBXNativeTarget "SnapKit" */;
+			buildPhases = (
+				D387C1EE0A546049498A6C349551EB46 /* Headers */,
+				A407340B7A4CE5613838027C6E6CDF69 /* Sources */,
+				77544AC936AA897E54ECBED74CB6C639 /* Frameworks */,
+				D950467B9A7C7C78B25947ECD4102130 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapKit;
+			productName = SnapKit;
+			productReference = 979486118B3E90C08386079D57962701 /* SnapKit */;
+			productType = "com.apple.product-type.framework";
+		};
+		333ECB3B3C0818A708EA1C84002811F1 /* Pods-JCEmojiKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B17F20E1604095A2CE91717517009631 /* Build configuration list for PBXNativeTarget "Pods-JCEmojiKit_Tests" */;
+			buildPhases = (
+				B44E2D4AA453C54E4545DBB51A22FD33 /* Headers */,
+				5D9805BBC391B0BA261DD2961E5A9032 /* Sources */,
+				15314937AB37103BF73D955949512776 /* Frameworks */,
+				A952282AA9CE6F0F66B7A3E5500AE89C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28A0B42EB0E6E684C24395443F2BACBE /* PBXTargetDependency */,
+			);
+			name = "Pods-JCEmojiKit_Tests";
+			productName = Pods_JCEmojiKit_Tests;
+			productReference = C5CD068CDA22C926DCA33E9DACD27151 /* Pods-JCEmojiKit_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		4D95C40D3A5E110945BECF1922BF1CE5 /* Pods-JCEmojiKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E5699FC259D878954688660ECB95828 /* Build configuration list for PBXNativeTarget "Pods-JCEmojiKit_Example" */;
+			buildPhases = (
+				3E9C7EB3478724D7E2E839E2CEF092CE /* Headers */,
+				551166218DFFB415EEAD0180A9A1A685 /* Sources */,
+				83ECB3A4AB923D84A27E9724640E1266 /* Frameworks */,
+				1D55C86B5254EB81A7907801A5B82244 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40D80336AEB050E5C5392E99EE8FD672 /* PBXTargetDependency */,
+				4B979CE7DD89D81D88272BF5E7761C3E /* PBXTargetDependency */,
+				8CF75E3E1CCF8FD97F728009CEC01316 /* PBXTargetDependency */,
+			);
+			name = "Pods-JCEmojiKit_Example";
+			productName = Pods_JCEmojiKit_Example;
+			productReference = 0395EFA601B2A835876351C605A8C66F /* Pods-JCEmojiKit_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		52F43AC38D9FF80196C69FB03AEEFDDA /* JXSegmentedView-JXSegmentedView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70954BB3581CD9C6A81D2CEA0262EDD1 /* Build configuration list for PBXNativeTarget "JXSegmentedView-JXSegmentedView" */;
+			buildPhases = (
+				FA0AAADEBB8461765B5251399F351AA0 /* Sources */,
+				F3C4EED7BB64D1E7DDC96F8AD03BDC72 /* Frameworks */,
+				862080974E3BCCC07CAEFFFC69FFE423 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JXSegmentedView-JXSegmentedView";
+			productName = JXSegmentedView;
+			productReference = 92B0EC788EDA1B0CFA48DFFCB3DDAECD /* JXSegmentedView-JXSegmentedView */;
+			productType = "com.apple.product-type.bundle";
+		};
+		70A7F4127F20A60D500377D3B7B0745C /* JCEmojiKit-JCEmojiKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FC121F1CA987B05B584AB930A28DEE3 /* Build configuration list for PBXNativeTarget "JCEmojiKit-JCEmojiKit" */;
+			buildPhases = (
+				ED392D9BA2C4358D6567AE9D2F0F19A7 /* Sources */,
+				4CD0DFC7568D23EE9E0D55B0A11C183C /* Frameworks */,
+				E8363312D94E0FCC5842F9144EF061C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JCEmojiKit-JCEmojiKit";
+			productName = JCEmojiKit;
+			productReference = BB7926753F25A1270EFFEB15538483F2 /* JCEmojiKit-JCEmojiKit */;
+			productType = "com.apple.product-type.bundle";
+		};
+		E863A9A96F52A35F47491E7B41ECEF9A /* JXSegmentedView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB2B1C5D611E934BED424997977E4CD7 /* Build configuration list for PBXNativeTarget "JXSegmentedView" */;
+			buildPhases = (
+				DE2C5857D23B3A4EF08EB94F34A1E2D7 /* Headers */,
+				BFF28DAB50D1B9B08B9620906728A227 /* Sources */,
+				AE8DAEB12B1BFB695D597E205AE9FCA4 /* Frameworks */,
+				614AE76B1E75141C63AB3E9A3611EA09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDCD4439B13966365A170847DC18992D /* PBXTargetDependency */,
+			);
+			name = JXSegmentedView;
+			productName = JXSegmentedView;
+			productReference = 07928762D9A8551470DAAD7C1E1F53A5 /* JXSegmentedView */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 97CCDC5A769F5158F5F75FDEFA72AC2B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08A9A20CD675AE735715E6806390912F /* JCEmojiKit */,
+				70A7F4127F20A60D500377D3B7B0745C /* JCEmojiKit-JCEmojiKit */,
+				E863A9A96F52A35F47491E7B41ECEF9A /* JXSegmentedView */,
+				52F43AC38D9FF80196C69FB03AEEFDDA /* JXSegmentedView-JXSegmentedView */,
+				4D95C40D3A5E110945BECF1922BF1CE5 /* Pods-JCEmojiKit_Example */,
+				333ECB3B3C0818A708EA1C84002811F1 /* Pods-JCEmojiKit_Tests */,
+				19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D55C86B5254EB81A7907801A5B82244 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		614AE76B1E75141C63AB3E9A3611EA09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				688A7A13D8DA23805EE4492EAECDC1C1 /* JXSegmentedView-JXSegmentedView in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		862080974E3BCCC07CAEFFFC69FFE423 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F245FAFF529EDC105DF834B61213D61 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FE21AD17ACA0A64FC1ECFB83DB8E3F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E12D99D5DFE9D6BD61E4A75B8E302E12 /* JCEmojiKit-JCEmojiKit in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A952282AA9CE6F0F66B7A3E5500AE89C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D950467B9A7C7C78B25947ECD4102130 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8363312D94E0FCC5842F9144EF061C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65BC6D3A36FB3A4D0305C309FE89F46E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B2EED0027B6CF99E5715FFFA64F98E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B613314F559E1B10B16304803EF359F /* JCEmojiCell.swift in Sources */,
+				F528C9C5736DB4851B3FBE257E27B31E /* JCEmojiDataList.plist in Sources */,
+				AEDC2F1A94CC33457289B689E0CC0835 /* JCEmojiDataManager.swift in Sources */,
+				A5AFE0D3806E6FE921861F96D83C8D8D /* JCEmojiInputView.swift in Sources */,
+				D7AE49C08B209994F6AB1C96DEC9D887 /* JCEmojiKeyBoardView.swift in Sources */,
+				0DE9322427479A1B88DD07AC50802658 /* JCEmojiKit-dummy.m in Sources */,
+				A3CB7AA6CD9DCDB7AEF0094675C29884 /* JCEmojiListView.swift in Sources */,
+				4F25DF35D97F90160AF4797121AFA66F /* JCEmojiModel.swift in Sources */,
+				F8BCCAA7C4EA06684EA9B52EE8708FAC /* JCEmojiTool.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		551166218DFFB415EEAD0180A9A1A685 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				096EABD660C9C6257EFF2D634D0BC21D /* Pods-JCEmojiKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D9805BBC391B0BA261DD2961E5A9032 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47B8BF66B89DEF1BBF9C3EAFF0F6934E /* Pods-JCEmojiKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A407340B7A4CE5613838027C6E6CDF69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				602EF5B77A1FC1DB4C7931E9468FEB22 /* Constraint.swift in Sources */,
+				CF3ED591615A127BE46272FFA7233BA6 /* ConstraintAttributes.swift in Sources */,
+				D5ED43BD2BC29481DC9F80397FEEFEB3 /* ConstraintConfig.swift in Sources */,
+				C7C3E5D53999A8D7AB5E1BED8F4C3C29 /* ConstraintConstantTarget.swift in Sources */,
+				81AE8DB202A6EA12B468B1E7F0E4F68B /* ConstraintDescription.swift in Sources */,
+				9E0BFA8FF45ED160D2130C0B35E65736 /* ConstraintDirectionalInsets.swift in Sources */,
+				B7F3B2A47E7BD03728088637D2966605 /* ConstraintDirectionalInsetTarget.swift in Sources */,
+				493A236E426A662633B96DED24A54FF6 /* ConstraintDSL.swift in Sources */,
+				CDD3B7D4F2541D5B9DBFB04625788D0D /* ConstraintInsets.swift in Sources */,
+				32D2A5EC76677EA1F15C2E0A96100F39 /* ConstraintInsetTarget.swift in Sources */,
+				FADFBB911842566A4A8E1E9D6A02D640 /* ConstraintItem.swift in Sources */,
+				EB33068FF787A95C1033B73E458906A9 /* ConstraintLayoutGuide.swift in Sources */,
+				63F49BDB24641DA2D2A4F3B058C5D2B1 /* ConstraintLayoutGuide+Extensions.swift in Sources */,
+				8307E24CCF964B4A1749E3C9E8ABCE14 /* ConstraintLayoutGuideDSL.swift in Sources */,
+				99E4A5B4DBC76CFC64983471532E5DB1 /* ConstraintLayoutSupport.swift in Sources */,
+				B97259AACBBEF4568EAD54A11B69D92A /* ConstraintLayoutSupportDSL.swift in Sources */,
+				9B4376810387B7D2F72BF4E8E8A70F0C /* ConstraintMaker.swift in Sources */,
+				1D61CA43CCCB4E1D78CD4BACB55D6C1C /* ConstraintMakerEditable.swift in Sources */,
+				560DE788090183D0EF87E00A8CE1539C /* ConstraintMakerExtendable.swift in Sources */,
+				105A993B4DF1234108C56D160D53B3D3 /* ConstraintMakerFinalizable.swift in Sources */,
+				2AAFAC7A349DADB398903A35D494A4F6 /* ConstraintMakerPrioritizable.swift in Sources */,
+				CCCD215E1FE11C448784B7242530A1E9 /* ConstraintMakerRelatable.swift in Sources */,
+				ED321A62656D88DFBC30115387E7A85F /* ConstraintMakerRelatable+Extensions.swift in Sources */,
+				CB3CC55F994C61C8F43F53110F672A11 /* ConstraintMultiplierTarget.swift in Sources */,
+				04B05C36CAD8F2046C5932626782554F /* ConstraintOffsetTarget.swift in Sources */,
+				B358321F548C18F683560D5B0E7E50A8 /* ConstraintPriority.swift in Sources */,
+				0A6605FF4949187D415C5244CDE21D7B /* ConstraintPriorityTarget.swift in Sources */,
+				98A532207A70E7D409016B7160E7F55E /* ConstraintRelatableTarget.swift in Sources */,
+				2B85BB1EB25A7258EF6FA22C3A77928B /* ConstraintRelation.swift in Sources */,
+				A9053E85FD908F3EE92111D7DBE6CE34 /* ConstraintView.swift in Sources */,
+				24D65112CA828941F654AF67D266F021 /* ConstraintView+Extensions.swift in Sources */,
+				DF3A02ACD52E22454FC0D205AF80B85A /* ConstraintViewDSL.swift in Sources */,
+				46FC9DD997E3C2E58F31A3F3B48D5E33 /* Debugging.swift in Sources */,
+				BE0F71558881074645C617E936C0DDE5 /* LayoutConstraint.swift in Sources */,
+				57DF2BF090347773D30E2C908BECF432 /* LayoutConstraintItem.swift in Sources */,
+				D2A65F3C799C29E50683491D03A02579 /* SnapKit-dummy.m in Sources */,
+				F8D5F983CB9816A31B45F077FBACCE8C /* Typealiases.swift in Sources */,
+				00EE19AC2DC3B0665F9B47FE64AD25BB /* UILayoutSupport+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF28DAB50D1B9B08B9620906728A227 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4EBD136FC71BF2D897537129B311CB1 /* JXSegmentedAnimator.swift in Sources */,
+				278F868BA202F6E954C393F6383EAC9A /* JXSegmentedBaseCell.swift in Sources */,
+				EC1F54DED64D22DB1ADFBFFB00293B76 /* JXSegmentedBaseDataSource.swift in Sources */,
+				92FFE08C2C6E59D67FC9F29EA2211B11 /* JXSegmentedBaseItemModel.swift in Sources */,
+				7E1FE4AB9B4F053F9DA4EBB65E37B6AA /* JXSegmentedCollectionView.swift in Sources */,
+				3B3EEB4069CF754653A5F373A1672BF3 /* JXSegmentedComponetGradientView.swift in Sources */,
+				9608707DA07841CCAD826758F3725BF8 /* JXSegmentedDotCell.swift in Sources */,
+				D97CFA9F98A88A079D53E7711C30731E /* JXSegmentedDotDataSource.swift in Sources */,
+				87B66E194DCB95117916977AB32E8FB4 /* JXSegmentedDotItemModel.swift in Sources */,
+				DBBE79E3BB9C447738B38A94F713213D /* JXSegmentedIndicatorBackgroundView.swift in Sources */,
+				45300E75E5CA66063398ACC23CEB37F3 /* JXSegmentedIndicatorBaseView.swift in Sources */,
+				BACC24AC130202B1A3245715886AD8EA /* JXSegmentedIndicatorDotLineView.swift in Sources */,
+				CEC7CBF995E1A9236F1189E3EE6C682F /* JXSegmentedIndicatorDoubleLineView.swift in Sources */,
+				82FDFCA637769D06F213FBB9C0C63F77 /* JXSegmentedIndicatorGradientLineView.swift in Sources */,
+				B1F495A858F73AF922C853A4561E41E1 /* JXSegmentedIndicatorGradientView.swift in Sources */,
+				FA8B76D57D28EB4F79115E9BA0C83FB7 /* JXSegmentedIndicatorImageView.swift in Sources */,
+				E2503A458C842FC05B68C8405FF66C05 /* JXSegmentedIndicatorLineView.swift in Sources */,
+				B99EF6A1DBACA9ED862C70472DFD402D /* JXSegmentedIndicatorParams.swift in Sources */,
+				0402E19D4FF549BC88A7B69B675C9C99 /* JXSegmentedIndicatorProtocol.swift in Sources */,
+				312FB4C7D59574905EF791B367151587 /* JXSegmentedIndicatorRainbowLineView.swift in Sources */,
+				6273762FFF6E1037B12AE1F49E7371DC /* JXSegmentedIndicatorTriangleView.swift in Sources */,
+				1A1AE6A7D6D90EAD0E802F4AC805408D /* JXSegmentedListContainerView.swift in Sources */,
+				15392ED287279B23D9FD6B3DDE8D878C /* JXSegmentedNumberCell.swift in Sources */,
+				389D2C1FB53206BB35765DA71BFA42CD /* JXSegmentedNumberDataSource.swift in Sources */,
+				0DA877347B7DB5E31D5EC4A9DC253B6A /* JXSegmentedNumberItemModel.swift in Sources */,
+				B773233B12018FAB69567783C9496A44 /* JXSegmentedRTLLayout.swift in Sources */,
+				5E5CF85D5A086914D1B3F2AE91EB5642 /* JXSegmentedTitleAttributeCell.swift in Sources */,
+				71CE6C7184EACE183E2CCBA34CDF010F /* JXSegmentedTitleAttributeDataSource.swift in Sources */,
+				A1BEB62F6C19E2C66FBBF2FFA960B078 /* JXSegmentedTitleAttributeItemModel.swift in Sources */,
+				AB02D18D4D8034B5077351CDCD9349C3 /* JXSegmentedTitleCell.swift in Sources */,
+				BF0D3AF706CE1E23E4BB2A5D8D372756 /* JXSegmentedTitleDataSource.swift in Sources */,
+				8F625196121649CC72705E8AF7731236 /* JXSegmentedTitleDynamicConfiguration.swift in Sources */,
+				EEE9ACE05EF19D50A03E0AC452EA9015 /* JXSegmentedTitleGradientCell.swift in Sources */,
+				9C7FDCAAC697C0C6165ADCCC3BC6BCBD /* JXSegmentedTitleGradientDataSource.swift in Sources */,
+				7E45D3516379D9DEDAE4676760A5E89A /* JXSegmentedTitleGradientItemModel.swift in Sources */,
+				F589CD5A8AA1F91CD2954D4F996D87F3 /* JXSegmentedTitleImageCell.swift in Sources */,
+				9CE34D25E23E1C6EBC6CC4906A26C5CE /* JXSegmentedTitleImageDataSource.swift in Sources */,
+				347F293D1143A11AB1CE67A870D3F8F9 /* JXSegmentedTitleImageItemModel.swift in Sources */,
+				780FBE58183E161E19C59ECE3E09AD5D /* JXSegmentedTitleItemModel.swift in Sources */,
+				09F16F956561029DDD13AF2CB442A147 /* JXSegmentedTitleOrImageCell.swift in Sources */,
+				12635FE1877EEC0467BD52AF5EE85940 /* JXSegmentedTitleOrImageDataSource.swift in Sources */,
+				5D0F435E2D00C5D220E8418A4488F955 /* JXSegmentedTitleOrImageItemModel.swift in Sources */,
+				98B3756A0CF1EA9DDAC0789B9F0F62EF /* JXSegmentedView.swift in Sources */,
+				1604DBD11F0D3601CFBA479722A20289 /* JXSegmentedView-dummy.m in Sources */,
+				4DDC992FA1E438EB6FDF7343690EE23E /* JXSegmentedViewTool.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED392D9BA2C4358D6567AE9D2F0F19A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0AAADEBB8461765B5251399F351AA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07814EE8F6440B579B19A7FE90041A96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "JCEmojiKit-JCEmojiKit";
+			target = 70A7F4127F20A60D500377D3B7B0745C /* JCEmojiKit-JCEmojiKit */;
+			targetProxy = 1325260E158D943DF45AE3A3EE34D235 /* PBXContainerItemProxy */;
+		};
+		1A92BD3BB7F8A71300C9BE6189CDA981 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JXSegmentedView;
+			target = E863A9A96F52A35F47491E7B41ECEF9A /* JXSegmentedView */;
+			targetProxy = 12523C45E6EA1C2A379492E868D70616 /* PBXContainerItemProxy */;
+		};
+		28A0B42EB0E6E684C24395443F2BACBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JCEmojiKit_Example";
+			target = 4D95C40D3A5E110945BECF1922BF1CE5 /* Pods-JCEmojiKit_Example */;
+			targetProxy = 07E9A0C483908924BA2B9EF5F5A6915D /* PBXContainerItemProxy */;
+		};
+		37A87B17197867D325DD7FB16605254B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapKit;
+			target = 19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */;
+			targetProxy = 5C504F57461037FF24EFC7A3A8585568 /* PBXContainerItemProxy */;
+		};
+		40D80336AEB050E5C5392E99EE8FD672 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JCEmojiKit;
+			target = 08A9A20CD675AE735715E6806390912F /* JCEmojiKit */;
+			targetProxy = 17E2D835213AF2B7C4EE82E3624792C3 /* PBXContainerItemProxy */;
+		};
+		4B979CE7DD89D81D88272BF5E7761C3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JXSegmentedView;
+			target = E863A9A96F52A35F47491E7B41ECEF9A /* JXSegmentedView */;
+			targetProxy = 607F9E9622E836F1415B77496CC45B27 /* PBXContainerItemProxy */;
+		};
+		8CF75E3E1CCF8FD97F728009CEC01316 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapKit;
+			target = 19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */;
+			targetProxy = 3C1F2AB7B129B9FC4FDDFC36BFCC08D9 /* PBXContainerItemProxy */;
+		};
+		FDCD4439B13966365A170847DC18992D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "JXSegmentedView-JXSegmentedView";
+			target = 52F43AC38D9FF80196C69FB03AEEFDDA /* JXSegmentedView-JXSegmentedView */;
+			targetProxy = EA8C35BDBE80529E2373F9FAEB2B10CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01C2FA78B14DC7A7B0F4856483FEFF50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C073D5200FFE8D63448927922757BF62 /* Pods-JCEmojiKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JCEmojiKit_Example/Pods-JCEmojiKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JCEmojiKit_Example/Pods-JCEmojiKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		04F40AF7131E839352C1039A8637E264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E81897463BE03310F741534D6D21C4C1 /* JCEmojiKit.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JCEmojiKit";
+				IBSC_MODULE = JCEmojiKit;
+				INFOPLIST_FILE = "Target Support Files/JCEmojiKit/ResourceBundle-JCEmojiKit-JCEmojiKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = JCEmojiKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		05F4A0199949641FB534FD34526D54EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFEED60073E7282DC3A8281A726F5931 /* Pods-JCEmojiKit_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JCEmojiKit_Tests/Pods-JCEmojiKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JCEmojiKit_Tests/Pods-JCEmojiKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		10A78F708BCA72122CB300B9926AD105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E81897463BE03310F741534D6D21C4C1 /* JCEmojiKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JCEmojiKit/JCEmojiKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JCEmojiKit/JCEmojiKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JCEmojiKit/JCEmojiKit.modulemap";
+				PRODUCT_MODULE_NAME = JCEmojiKit;
+				PRODUCT_NAME = JCEmojiKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		13BCDF1F7200354E85B5850B8E97DFA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80934EBA0B6E8C58F2564B7F0621FB01 /* JXSegmentedView.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JXSegmentedView";
+				IBSC_MODULE = JXSegmentedView;
+				INFOPLIST_FILE = "Target Support Files/JXSegmentedView/ResourceBundle-JXSegmentedView-JXSegmentedView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = JXSegmentedView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		236C21D568A42ECC842B6D694DA118B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7544AEC44A628940E87055B0F82D73A6 /* Pods-JCEmojiKit_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JCEmojiKit_Example/Pods-JCEmojiKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JCEmojiKit_Example/Pods-JCEmojiKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		30BBF2AF33F2F67B78A6C812102BD6EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A966076C6307DCC90EF44F55CC7CF41C /* Pods-JCEmojiKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JCEmojiKit_Tests/Pods-JCEmojiKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JCEmojiKit_Tests/Pods-JCEmojiKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3F5207F490E4A60D0B3E6E3820C6AB3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E11AC01AFE0A16E624B6402AA78AF9B /* JXSegmentedView.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JXSegmentedView";
+				IBSC_MODULE = JXSegmentedView;
+				INFOPLIST_FILE = "Target Support Files/JXSegmentedView/ResourceBundle-JXSegmentedView-JXSegmentedView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = JXSegmentedView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		7EB53EEF1763126F229C8916D13D6970 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E11AC01AFE0A16E624B6402AA78AF9B /* JXSegmentedView.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JXSegmentedView/JXSegmentedView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JXSegmentedView/JXSegmentedView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JXSegmentedView/JXSegmentedView.modulemap";
+				PRODUCT_MODULE_NAME = JXSegmentedView;
+				PRODUCT_NAME = JXSegmentedView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9318B9F7D19DA82307537979626C84CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F100F0E8D9BEE9E015E59E1DDFFD0A3D /* JCEmojiKit.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JCEmojiKit";
+				IBSC_MODULE = JCEmojiKit;
+				INFOPLIST_FILE = "Target Support Files/JCEmojiKit/ResourceBundle-JCEmojiKit-JCEmojiKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = JCEmojiKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		BEAF1752ED35DA9661A72903AE50E06A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAE1AF4EF086EE9D6598FB8E8E8C09FF /* SnapKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/SnapKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				PRODUCT_MODULE_NAME = SnapKit;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BFE96BCD244FBB3C86450FAEFE89333A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB6240B3ADF281CAE2B412B0543FEDAC /* SnapKit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/SnapKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				PRODUCT_MODULE_NAME = SnapKit;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C9385310D8126C46A2C28DEC5ED201E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80934EBA0B6E8C58F2564B7F0621FB01 /* JXSegmentedView.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JXSegmentedView/JXSegmentedView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JXSegmentedView/JXSegmentedView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JXSegmentedView/JXSegmentedView.modulemap";
+				PRODUCT_MODULE_NAME = JXSegmentedView;
+				PRODUCT_NAME = JXSegmentedView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D464427D5257ECC5DAB6C950B4CE2DA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F100F0E8D9BEE9E015E59E1DDFFD0A3D /* JCEmojiKit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JCEmojiKit/JCEmojiKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JCEmojiKit/JCEmojiKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JCEmojiKit/JCEmojiKit.modulemap";
+				PRODUCT_MODULE_NAME = JCEmojiKit;
+				PRODUCT_NAME = JCEmojiKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B083C11482CB94927306C590DC66963 /* Build configuration list for PBXNativeTarget "JCEmojiKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10A78F708BCA72122CB300B9926AD105 /* Debug */,
+				D464427D5257ECC5DAB6C950B4CE2DA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E5699FC259D878954688660ECB95828 /* Build configuration list for PBXNativeTarget "Pods-JCEmojiKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01C2FA78B14DC7A7B0F4856483FEFF50 /* Debug */,
+				236C21D568A42ECC842B6D694DA118B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70954BB3581CD9C6A81D2CEA0262EDD1 /* Build configuration list for PBXNativeTarget "JXSegmentedView-JXSegmentedView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13BCDF1F7200354E85B5850B8E97DFA3 /* Debug */,
+				3F5207F490E4A60D0B3E6E3820C6AB3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FC121F1CA987B05B584AB930A28DEE3 /* Build configuration list for PBXNativeTarget "JCEmojiKit-JCEmojiKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F40AF7131E839352C1039A8637E264 /* Debug */,
+				9318B9F7D19DA82307537979626C84CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B17F20E1604095A2CE91717517009631 /* Build configuration list for PBXNativeTarget "Pods-JCEmojiKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30BBF2AF33F2F67B78A6C812102BD6EA /* Debug */,
+				05F4A0199949641FB534FD34526D54EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB2B1C5D611E934BED424997977E4CD7 /* Build configuration list for PBXNativeTarget "JXSegmentedView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9385310D8126C46A2C28DEC5ED201E6 /* Debug */,
+				7EB53EEF1763126F229C8916D13D6970 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBC61E0DDA282A787A12190667B2910F /* Build configuration list for PBXNativeTarget "SnapKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEAF1752ED35DA9661A72903AE50E06A /* Debug */,
+				BFE96BCD244FBB3C86450FAEFE89333A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
